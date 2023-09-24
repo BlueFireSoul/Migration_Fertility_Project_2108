@@ -1,0 +1,19 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{4}{c}}
+\toprule
+            &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}\\
+            &\multicolumn{1}{c}{withchild}&\multicolumn{1}{c}{withchild}&\multicolumn{1}{c}{withchild}&\multicolumn{1}{c}{withchild}\\
+\midrule
+mu1         &      0.0331\sym{***}&      0.0458\sym{***}&      0.0249\sym{***}&      0.0447\sym{***}\\
+            &   (0.00241)         &   (0.00194)         &   (0.00242)         &   (0.00196)         \\
+\addlinespace
+mu2         &      0.0276\sym{***}&      0.0196\sym{***}&      0.0221\sym{***}&      0.0189\sym{***}\\
+            &   (0.00369)         &   (0.00304)         &   (0.00369)         &   (0.00305)         \\
+\midrule
+\(N\)       &      606719         &      545002         &      606719         &      545002         \\
+\bottomrule
+\multicolumn{5}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{5}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+}

@@ -1,0 +1,16 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{4}{c}}
+\toprule
+            &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}\\
+            &\multicolumn{1}{c}{fixed\_L}&\multicolumn{1}{c}{fixed\_H}&\multicolumn{1}{c}{fixed\_L}&\multicolumn{1}{c}{fixed\_H}\\
+\midrule
+rent\_regressor&      -1.760\sym{*}  &      -1.878         &      -3.029\sym{*}  &      -4.128\sym{**} \\
+            &     (0.883)         &     (0.997)         &     (1.233)         &     (1.374)         \\
+\midrule
+\(N\)       &         258         &         258         &         258         &         258         \\
+\bottomrule
+\multicolumn{5}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{5}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+}
